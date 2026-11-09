@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Userdata
-PRODUCT_FS_COMPRESSION := 1
+PRODUCT_FS_COMPRESSION := 12
 
 # Dynamic partition stuff
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
